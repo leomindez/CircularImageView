@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="circularImage">
+        <attr name="defaultBackgroundImage" format="integer"/>
+        <attr name="colorBorder" format="color|reference"/>
+        <attr name="paintBorder" format="boolean"/>
+        <attr name="widthStrokeBorder" format="dimension"/>
+    </declare-styleable>
+
+
+</resources>

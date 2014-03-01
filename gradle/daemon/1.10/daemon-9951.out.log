@@ -1,0 +1,219 @@
+18:22:33.896 [INFO] [org.gradle.launcher.daemon.server.Daemon] start() called on daemon - DefaultDaemonContext[uid=9beeda50-b030-46e0-89c1-dfa02d73cf8c,javaHome=/usr/lib/jvm/java-7-oracle,daemonRegistryDir=/home/leo/Documents/beavlion dev /Apps/CircularImageView/gradle/daemon,pid=9951,idleTimeout=60000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8]
+18:22:33.909 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1393633353909
+18:22:33.933 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface wlan0
+18:22:33.934 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+18:22:33.935 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding non-loopback address /fe80:0:0:0:217:c4ff:fec3:704f%3
+18:22:33.936 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding non-loopback address /192.168.1.69
+18:22:33.937 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface lo
+18:22:33.938 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? true
+18:22:33.939 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback address /0:0:0:0:0:0:0:1%1
+18:22:33.940 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback address /127.0.0.1
+18:22:33.942 [DEBUG] [org.gradle.messaging.remote.internal.inet.TcpIncomingConnector] Listening on [970da30a-1f86-4ca9-a99a-e511db591a27 port:48785, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]].
+18:22:33.948 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] Daemon starting at: Fri Feb 28 18:22:33 CST 2014, with address: [970da30a-1f86-4ca9-a99a-e511db591a27 port:48785, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+18:22:33.951 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Advertising the daemon address to the clients: [970da30a-1f86-4ca9-a99a-e511db591a27 port:48785, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+18:22:33.953 [DEBUG] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Advertised daemon context: DefaultDaemonContext[uid=9beeda50-b030-46e0-89c1-dfa02d73cf8c,javaHome=/usr/lib/jvm/java-7-oracle,daemonRegistryDir=/home/leo/Documents/beavlion dev /Apps/CircularImageView/gradle/daemon,pid=9951,idleTimeout=60000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8]
+18:22:33.956 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Storing daemon address: [970da30a-1f86-4ca9-a99a-e511db591a27 port:48785, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]], context: DefaultDaemonContext[uid=9beeda50-b030-46e0-89c1-dfa02d73cf8c,javaHome=/usr/lib/jvm/java-7-oracle,daemonRegistryDir=/home/leo/Documents/beavlion dev /Apps/CircularImageView/gradle/daemon,pid=9951,idleTimeout=60000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8]
+18:22:34.008 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+18:22:34.020 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+18:22:34.090 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+18:22:34.093 [LIFECYCLE] [org.gradle.launcher.daemon.bootstrap.DaemonMain] Daemon server started. Pid: 9951.
+18:22:34.105 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonStartupCommunication] Completed writing the daemon greeting. Closing streams...
+18:22:34.108 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] requestStopOnIdleTimeout(60000 MILLISECONDS) called on daemon
+18:22:34.113 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] waiting for daemon to stop or be idle for 60000ms
+18:22:34.114 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is idle, sleeping until state change or idle timeout at Fri Feb 28 18:23:33 CST 2014
+18:22:34.151 [DEBUG] [org.gradle.messaging.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:42856 to /127.0.0.1:48785.
+18:22:34.292 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: received class org.gradle.launcher.daemon.protocol.Build
+18:22:34.294 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: Build{id=c78d5f89-3078-4ed7-8fbf-0d0da2e6a480.1, currentDir=/home/leo}
+18:22:34.295 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=c78d5f89-3078-4ed7-8fbf-0d0da2e6a480.1, currentDir=/home/leo}.
+18:22:34.296 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=c78d5f89-3078-4ed7-8fbf-0d0da2e6a480.1, currentDir=/home/leo} with connection: socket connection at /127.0.0.1:48785 with /127.0.0.1:42856.
+18:22:34.316 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] onStartCommand(DaemonCommandExecution[command = Build{id=c78d5f89-3078-4ed7-8fbf-0d0da2e6a480.1, currentDir=/home/leo}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@2775a1]) called after 0.0 minutes of idle
+18:22:34.318 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as busy, address: [970da30a-1f86-4ca9-a99a-e511db591a27 port:48785, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+18:22:34.319 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [970da30a-1f86-4ca9-a99a-e511db591a27 port:48785, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+18:22:34.336 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+18:22:34.337 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+18:22:34.343 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+18:22:34.344 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1393633354344
+18:22:34.344 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is busy, sleeping until state changes.
+18:22:34.345 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building: Build{id=c78d5f89-3078-4ed7-8fbf-0d0da2e6a480.1, currentDir=/home/leo}. Dispatching build started information...
+18:22:34.349 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: dispatching class org.gradle.launcher.daemon.protocol.BuildStarted
+18:22:34.367 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: {MDMSESSION=default, GNOME_KEYRING_CONTROL=/run/user/leo/keyring-TKzya2, SSH_AGENT_PID=1996, LC_TELEPHONE=es_MX.UTF-8, XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt, SESSION_MANAGER=local/leon:@/tmp/.ICE-unix/1914,unix/leon:/tmp/.ICE-unix/1914, GNOME_DESKTOP_SESSION_ID=this-is-deprecated, LC_NUMERIC=es_MX.UTF-8, LC_NAME=es_MX.UTF-8, XDG_SESSION_COOKIE=85ea98458b81142e84e2e74450c40df3-1393623011.26353-734296513, MANDATORY_PATH=/usr/share/gconf/default.mandatory.path, XDG_DATA_DIRS=/usr/share/default:/usr/share/gnome:/usr/local/share/:/usr/share/:/usr/share/mdm/, PWD=/home/leo, GIO_LAUNCHED_DESKTOP_FILE=/home/leo/.local/share/applications/jetbrains-android-studio.desktop, MDM_XSERVER_LOCATION=local, LOGNAME=leo, LC_PAPER=es_MX.UTF-8, GIO_LAUNCHED_DESKTOP_FILE_PID=2878, LC_IDENTIFICATION=es_MX.UTF-8, GPG_AGENT_INFO=/run/user/leo/keyring-TKzya2/gpg:0:1, GJS_DEBUG_TOPICS=JS ERROR;JS LOG, SSH_AUTH_SOCK=/run/user/leo/keyring-TKzya2/ssh, NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat, LD_LIBRARY_PATH=/home/leo/Documentos/Android/android-studio/bin:, DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-ZLhcHYLXF3,guid=a180f4da1111b663c32196db5310ffe3, LC_ADDRESS=es_MX.UTF-8, SHELL=/bin/bash, GNOME_KEYRING_PID=1837, CLASSPATH=/home/leo/Documentos/Android/android-studio/bin/../lib/bootstrap.jar:/home/leo/Documentos/Android/android-studio/bin/../lib/extensions.jar:/home/leo/Documentos/Android/android-studio/bin/../lib/util.jar:/home/leo/Documentos/Android/android-studio/bin/../lib/jdom.jar:/home/leo/Documentos/Android/android-studio/bin/../lib/log4j.jar:/home/leo/Documentos/Android/android-studio/bin/../lib/trove4j.jar:/home/leo/Documentos/Android/android-studio/bin/../lib/jna.jar:/usr/lib/jvm/java-7-oracle/lib/tools.jar, PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games, XDG_CURRENT_DESKTOP=GNOME, XDG_CONFIG_DIRS=/etc/xdg/xdg-default:/etc/xdg, DESKTOP_SESSION=default, DISPLAY=:0, LC_MONETARY=es_MX.UTF-8, USER=leo, GJS_DEBUG_OUTPUT=stderr, HOME=/home/leo, XAUTHORITY=/home/leo/.Xauthority, WINDOWPATH=8, DEFAULTS_PATH=/usr/share/gconf/default.default.path, MDM_LANG=en_US.UTF-8, USERNAME=leo, LC_TIME=es_MX.UTF-8, LC_MEASUREMENT=es_MX.UTF-8, XDG_RUNTIME_DIR=/run/user/leo, LANG=en_US.UTF-8}
+18:22:34.382 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: received class org.gradle.launcher.daemon.protocol.CloseInput
+18:22:34.383 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received IO message from client: CloseInput[id=c78d5f89-3078-4ed7-8fbf-0d0da2e6a480.2]
+18:22:34.407 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+18:22:34.408 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 9951). The daemon log file: /home/leo/Documents/beavlion dev /Apps/CircularImageView/gradle/daemon/1.10/daemon-9951.out.log
+18:22:34.421 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] Closing daemon's stdin at end of input.
+18:22:34.422 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] The daemon will no longer process any standard input.
+18:22:34.433 [INFO] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=9beeda50-b030-46e0-89c1-dfa02d73cf8c,javaHome=/usr/lib/jvm/java-7-oracle,daemonRegistryDir=/home/leo/Documents/beavlion dev /Apps/CircularImageView/gradle/daemon,pid=9951,idleTimeout=60000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8]
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Script 'https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle' line: 48
+
+* What went wrong:
+A problem occurred configuring root project 'CircularImageView'.
+> No such property: GROUP for class: org.gradle.api.publication.maven.internal.ant.DefaultGroovyMavenDeployer
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 14.194 secs
+18:22:46.559 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+18:22:46.560 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: DaemonCommandResult[type=CommandFailure, value=org.gradle.launcher.exec.ReportedException: org.gradle.internal.exceptions.LocationAwareException: Script 'https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle' line: 48
+A problem occurred configuring root project 'CircularImageView'.]
+18:22:46.565 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: dispatching class org.gradle.launcher.daemon.protocol.CommandFailure
+18:22:47.152 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] onFinishCommand() called while execution = DaemonCommandExecution[command = Build{id=c78d5f89-3078-4ed7-8fbf-0d0da2e6a480.1, currentDir=/home/leo}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@2775a1]
+18:22:47.191 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1393633367191
+18:22:47.198 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as idle, address: [970da30a-1f86-4ca9-a99a-e511db591a27 port:48785, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+18:22:47.199 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking idle by address: [970da30a-1f86-4ca9-a99a-e511db591a27 port:48785, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+18:22:47.225 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+18:22:47.235 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+18:22:47.271 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+18:22:47.287 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is idle, sleeping until state change or idle timeout at Fri Feb 28 18:23:47 CST 2014
+18:22:48.755 [DEBUG] [org.gradle.messaging.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:42859 to /127.0.0.1:48785.
+18:22:48.757 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=c78d5f89-3078-4ed7-8fbf-0d0da2e6a480.1, currentDir=/home/leo}
+18:22:48.763 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: received class org.gradle.launcher.daemon.protocol.Finished
+18:22:48.767 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@85d49e
+18:22:48.768 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@85d49e
+18:22:48.769 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: stopping connection
+18:22:48.771 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: received null
+18:22:48.772 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received end-of-input from client.
+18:22:48.787 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: stopping connection
+18:22:48.897 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 21: received class org.gradle.launcher.daemon.protocol.Build
+18:22:48.898 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: Build{id=2fc1b9a3-e07d-4625-9a5d-7e34ad7b9b7d.1, currentDir=/home/leo}
+18:22:48.909 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=2fc1b9a3-e07d-4625-9a5d-7e34ad7b9b7d.1, currentDir=/home/leo}.
+18:22:48.910 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=2fc1b9a3-e07d-4625-9a5d-7e34ad7b9b7d.1, currentDir=/home/leo} with connection: socket connection at /127.0.0.1:48785 with /127.0.0.1:42859.
+18:22:48.911 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] onStartCommand(DaemonCommandExecution[command = Build{id=2fc1b9a3-e07d-4625-9a5d-7e34ad7b9b7d.1, currentDir=/home/leo}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@b8622f]) called after 0.0 minutes of idle
+18:22:48.915 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as busy, address: [970da30a-1f86-4ca9-a99a-e511db591a27 port:48785, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+18:22:48.916 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [970da30a-1f86-4ca9-a99a-e511db591a27 port:48785, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+18:22:48.917 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+18:22:48.919 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+18:22:48.934 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+18:22:48.950 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1393633368949
+18:22:48.953 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is busy, sleeping until state changes.
+18:22:48.954 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building: Build{id=2fc1b9a3-e07d-4625-9a5d-7e34ad7b9b7d.1, currentDir=/home/leo}. Dispatching build started information...
+18:22:48.955 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 20: dispatching class org.gradle.launcher.daemon.protocol.BuildStarted
+18:22:48.964 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: {MDMSESSION=default, GNOME_KEYRING_CONTROL=/run/user/leo/keyring-TKzya2, SSH_AGENT_PID=1996, LC_TELEPHONE=es_MX.UTF-8, XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt, SESSION_MANAGER=local/leon:@/tmp/.ICE-unix/1914,unix/leon:/tmp/.ICE-unix/1914, GNOME_DESKTOP_SESSION_ID=this-is-deprecated, LC_NUMERIC=es_MX.UTF-8, LC_NAME=es_MX.UTF-8, XDG_SESSION_COOKIE=85ea98458b81142e84e2e74450c40df3-1393623011.26353-734296513, MANDATORY_PATH=/usr/share/gconf/default.mandatory.path, XDG_DATA_DIRS=/usr/share/default:/usr/share/gnome:/usr/local/share/:/usr/share/:/usr/share/mdm/, PWD=/home/leo, GIO_LAUNCHED_DESKTOP_FILE=/home/leo/.local/share/applications/jetbrains-android-studio.desktop, MDM_XSERVER_LOCATION=local, LOGNAME=leo, LC_PAPER=es_MX.UTF-8, GIO_LAUNCHED_DESKTOP_FILE_PID=2878, LC_IDENTIFICATION=es_MX.UTF-8, GPG_AGENT_INFO=/run/user/leo/keyring-TKzya2/gpg:0:1, GJS_DEBUG_TOPICS=JS ERROR;JS LOG, SSH_AUTH_SOCK=/run/user/leo/keyring-TKzya2/ssh, NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat, LD_LIBRARY_PATH=/home/leo/Documentos/Android/android-studio/bin:, DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-ZLhcHYLXF3,guid=a180f4da1111b663c32196db5310ffe3, LC_ADDRESS=es_MX.UTF-8, SHELL=/bin/bash, GNOME_KEYRING_PID=1837, CLASSPATH=/home/leo/Documentos/Android/android-studio/bin/../lib/bootstrap.jar:/home/leo/Documentos/Android/android-studio/bin/../lib/extensions.jar:/home/leo/Documentos/Android/android-studio/bin/../lib/util.jar:/home/leo/Documentos/Android/android-studio/bin/../lib/jdom.jar:/home/leo/Documentos/Android/android-studio/bin/../lib/log4j.jar:/home/leo/Documentos/Android/android-studio/bin/../lib/trove4j.jar:/home/leo/Documentos/Android/android-studio/bin/../lib/jna.jar:/usr/lib/jvm/java-7-oracle/lib/tools.jar, PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games, XDG_CURRENT_DESKTOP=GNOME, XDG_CONFIG_DIRS=/etc/xdg/xdg-default:/etc/xdg, DESKTOP_SESSION=default, DISPLAY=:0, LC_MONETARY=es_MX.UTF-8, USER=leo, GJS_DEBUG_OUTPUT=stderr, HOME=/home/leo, XAUTHORITY=/home/leo/.Xauthority, WINDOWPATH=8, DEFAULTS_PATH=/usr/share/gconf/default.default.path, MDM_LANG=en_US.UTF-8, USERNAME=leo, LC_TIME=es_MX.UTF-8, LC_MEASUREMENT=es_MX.UTF-8, XDG_RUNTIME_DIR=/run/user/leo, LANG=en_US.UTF-8}
+18:22:48.976 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+18:22:48.977 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 9951). The daemon log file: /home/leo/Documents/beavlion dev /Apps/CircularImageView/gradle/daemon/1.10/daemon-9951.out.log
+18:22:48.982 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 21: received class org.gradle.launcher.daemon.protocol.CloseInput
+18:22:48.985 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received IO message from client: CloseInput[id=2fc1b9a3-e07d-4625-9a5d-7e34ad7b9b7d.2]
+18:22:48.985 [INFO] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=9beeda50-b030-46e0-89c1-dfa02d73cf8c,javaHome=/usr/lib/jvm/java-7-oracle,daemonRegistryDir=/home/leo/Documents/beavlion dev /Apps/CircularImageView/gradle/daemon,pid=9951,idleTimeout=60000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8]
+18:22:48.991 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] Closing daemon's stdin at end of input.
+18:22:48.993 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] The daemon will no longer process any standard input.
+18:22:49.120 [INFO] [org.gradle.tooling.internal.provider.DefaultPayloadClassLoaderRegistry] Creating ClassLoader ebb65782-c63a-4557-ab2f-3fb16ee78c57 from org.gradle.internal.classloader.MutableURLClassLoader$Spec@c1b87d1a and [org.gradle.internal.classloader.FilteringClassLoader@7e01ff].
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Script 'https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle' line: 48
+
+* What went wrong:
+A problem occurred configuring root project 'CircularImageView'.
+> No such property: GROUP for class: org.gradle.api.publication.maven.internal.ant.DefaultGroovyMavenDeployer
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 12.892 secs
+18:23:00.584 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+18:23:00.587 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: DaemonCommandResult[type=CommandFailure, value=org.gradle.launcher.exec.ReportedException: org.gradle.internal.exceptions.LocationAwareException: Script 'https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle' line: 48
+A problem occurred configuring root project 'CircularImageView'.]
+18:23:00.593 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 20: dispatching class org.gradle.launcher.daemon.protocol.CommandFailure
+18:23:00.709 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] onFinishCommand() called while execution = DaemonCommandExecution[command = Build{id=2fc1b9a3-e07d-4625-9a5d-7e34ad7b9b7d.1, currentDir=/home/leo}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@b8622f]
+18:23:00.722 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1393633380722
+18:23:00.723 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as idle, address: [970da30a-1f86-4ca9-a99a-e511db591a27 port:48785, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+18:23:00.726 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking idle by address: [970da30a-1f86-4ca9-a99a-e511db591a27 port:48785, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+18:23:00.728 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+18:23:00.730 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+18:23:00.742 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+18:23:00.746 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is idle, sleeping until state change or idle timeout at Fri Feb 28 18:24:00 CST 2014
+18:23:00.747 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=2fc1b9a3-e07d-4625-9a5d-7e34ad7b9b7d.1, currentDir=/home/leo}
+18:23:00.749 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 21: received class org.gradle.launcher.daemon.protocol.Finished
+18:23:00.749 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@dad531
+18:23:00.750 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 21: received null
+18:23:00.763 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received end-of-input from client.
+18:23:00.771 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: null
+18:23:00.771 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 20: stopping connection
+18:23:00.791 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 20: stopping connection
+18:23:10.495 [DEBUG] [org.gradle.messaging.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:42863 to /127.0.0.1:48785.
+18:23:10.524 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 25: received class org.gradle.launcher.daemon.protocol.Build
+18:23:10.524 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: Build{id=86d2cd7f-5b33-4a5b-98fc-efe52d894e8a.1, currentDir=/home/leo}
+18:23:10.525 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=86d2cd7f-5b33-4a5b-98fc-efe52d894e8a.1, currentDir=/home/leo}.
+18:23:10.526 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=86d2cd7f-5b33-4a5b-98fc-efe52d894e8a.1, currentDir=/home/leo} with connection: socket connection at /127.0.0.1:48785 with /127.0.0.1:42863.
+18:23:10.527 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] onStartCommand(DaemonCommandExecution[command = Build{id=86d2cd7f-5b33-4a5b-98fc-efe52d894e8a.1, currentDir=/home/leo}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@12e7b7d]) called after 0.0 minutes of idle
+18:23:10.528 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as busy, address: [970da30a-1f86-4ca9-a99a-e511db591a27 port:48785, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+18:23:10.529 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [970da30a-1f86-4ca9-a99a-e511db591a27 port:48785, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+18:23:10.530 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+18:23:10.531 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+18:23:10.536 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+18:23:10.537 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1393633390537
+18:23:10.537 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is busy, sleeping until state changes.
+18:23:10.537 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building: Build{id=86d2cd7f-5b33-4a5b-98fc-efe52d894e8a.1, currentDir=/home/leo}. Dispatching build started information...
+18:23:10.539 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 20: dispatching class org.gradle.launcher.daemon.protocol.BuildStarted
+18:23:10.541 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: {MDMSESSION=default, GNOME_KEYRING_CONTROL=/run/user/leo/keyring-TKzya2, SSH_AGENT_PID=1996, LC_TELEPHONE=es_MX.UTF-8, XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt, SESSION_MANAGER=local/leon:@/tmp/.ICE-unix/1914,unix/leon:/tmp/.ICE-unix/1914, GNOME_DESKTOP_SESSION_ID=this-is-deprecated, LC_NUMERIC=es_MX.UTF-8, LC_NAME=es_MX.UTF-8, XDG_SESSION_COOKIE=85ea98458b81142e84e2e74450c40df3-1393623011.26353-734296513, MANDATORY_PATH=/usr/share/gconf/default.mandatory.path, XDG_DATA_DIRS=/usr/share/default:/usr/share/gnome:/usr/local/share/:/usr/share/:/usr/share/mdm/, PWD=/home/leo, GIO_LAUNCHED_DESKTOP_FILE=/home/leo/.local/share/applications/jetbrains-android-studio.desktop, MDM_XSERVER_LOCATION=local, LOGNAME=leo, LC_PAPER=es_MX.UTF-8, GIO_LAUNCHED_DESKTOP_FILE_PID=2878, LC_IDENTIFICATION=es_MX.UTF-8, GPG_AGENT_INFO=/run/user/leo/keyring-TKzya2/gpg:0:1, GJS_DEBUG_TOPICS=JS ERROR;JS LOG, SSH_AUTH_SOCK=/run/user/leo/keyring-TKzya2/ssh, NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat, LD_LIBRARY_PATH=/home/leo/Documentos/Android/android-studio/bin:, DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-ZLhcHYLXF3,guid=a180f4da1111b663c32196db5310ffe3, LC_ADDRESS=es_MX.UTF-8, SHELL=/bin/bash, GNOME_KEYRING_PID=1837, CLASSPATH=/home/leo/Documentos/Android/android-studio/bin/../lib/bootstrap.jar:/home/leo/Documentos/Android/android-studio/bin/../lib/extensions.jar:/home/leo/Documentos/Android/android-studio/bin/../lib/util.jar:/home/leo/Documentos/Android/android-studio/bin/../lib/jdom.jar:/home/leo/Documentos/Android/android-studio/bin/../lib/log4j.jar:/home/leo/Documentos/Android/android-studio/bin/../lib/trove4j.jar:/home/leo/Documentos/Android/android-studio/bin/../lib/jna.jar:/usr/lib/jvm/java-7-oracle/lib/tools.jar, PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games, XDG_CURRENT_DESKTOP=GNOME, XDG_CONFIG_DIRS=/etc/xdg/xdg-default:/etc/xdg, DESKTOP_SESSION=default, DISPLAY=:0, LC_MONETARY=es_MX.UTF-8, USER=leo, GJS_DEBUG_OUTPUT=stderr, HOME=/home/leo, XAUTHORITY=/home/leo/.Xauthority, WINDOWPATH=8, DEFAULTS_PATH=/usr/share/gconf/default.default.path, MDM_LANG=en_US.UTF-8, USERNAME=leo, LC_TIME=es_MX.UTF-8, LC_MEASUREMENT=es_MX.UTF-8, XDG_RUNTIME_DIR=/run/user/leo, LANG=en_US.UTF-8}
+18:23:10.544 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+18:23:10.545 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 9951). The daemon log file: /home/leo/Documents/beavlion dev /Apps/CircularImageView/gradle/daemon/1.10/daemon-9951.out.log
+18:23:10.547 [INFO] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=9beeda50-b030-46e0-89c1-dfa02d73cf8c,javaHome=/usr/lib/jvm/java-7-oracle,daemonRegistryDir=/home/leo/Documents/beavlion dev /Apps/CircularImageView/gradle/daemon,pid=9951,idleTimeout=60000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8]
+18:23:10.547 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 25: received class org.gradle.launcher.daemon.protocol.CloseInput
+18:23:10.549 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received IO message from client: CloseInput[id=86d2cd7f-5b33-4a5b-98fc-efe52d894e8a.2]
+18:23:10.554 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] Closing daemon's stdin at end of input.
+18:23:10.555 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] The daemon will no longer process any standard input.
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Script 'https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle' line: 48
+
+* What went wrong:
+A problem occurred configuring root project 'CircularImageView'.
+> No such property: GROUP for class: org.gradle.api.publication.maven.internal.ant.DefaultGroovyMavenDeployer
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 8.007 secs
+18:23:18.470 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+18:23:18.471 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: DaemonCommandResult[type=CommandFailure, value=org.gradle.launcher.exec.ReportedException: org.gradle.internal.exceptions.LocationAwareException: Script 'https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle' line: 48
+A problem occurred configuring root project 'CircularImageView'.]
+18:23:18.472 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 20: dispatching class org.gradle.launcher.daemon.protocol.CommandFailure
+18:23:18.526 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] onFinishCommand() called while execution = DaemonCommandExecution[command = Build{id=86d2cd7f-5b33-4a5b-98fc-efe52d894e8a.1, currentDir=/home/leo}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@12e7b7d]
+18:23:18.527 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1393633398527
+18:23:18.528 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as idle, address: [970da30a-1f86-4ca9-a99a-e511db591a27 port:48785, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+18:23:18.529 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking idle by address: [970da30a-1f86-4ca9-a99a-e511db591a27 port:48785, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+18:23:18.530 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+18:23:18.531 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+18:23:18.548 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 25: received class org.gradle.launcher.daemon.protocol.Finished
+18:23:18.555 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@56e42
+18:23:18.556 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 25: received null
+18:23:18.557 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received end-of-input from client.
+18:23:18.567 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+18:23:18.578 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=86d2cd7f-5b33-4a5b-98fc-efe52d894e8a.1, currentDir=/home/leo}
+18:23:18.578 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is idle, sleeping until state change or idle timeout at Fri Feb 28 18:24:18 CST 2014
+18:23:18.587 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: null
+18:23:18.590 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 20: stopping connection
+18:23:18.595 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 20: stopping connection
+18:24:18.528 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon has been idle for requested period.
+18:24:18.529 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Stop requested. The daemon is running a build: false
+18:24:18.530 [INFO] [org.gradle.launcher.daemon.bootstrap.DaemonMain] Daemon hit idle timeout (60000ms), stopping...
+18:24:18.531 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] stop() called on daemon
+18:24:18.540 [INFO] [org.gradle.launcher.daemon.server.Daemon] Stop requested. Daemon is removing its presence from the registry...
+18:24:18.541 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Stop requested. The daemon is running a build: false
+18:24:18.543 [DEBUG] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Removing our presence to clients, eg. removing this address from the registry: [970da30a-1f86-4ca9-a99a-e511db591a27 port:48785, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+18:24:18.544 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Removing daemon address: [970da30a-1f86-4ca9-a99a-e511db591a27 port:48785, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+18:24:18.547 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+18:24:18.548 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+18:24:18.552 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+18:24:18.553 [DEBUG] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Address removed from registry.
+Daemon vm is shutting down... The daemon has exited normally or was terminated in response to a user interrupt.
+18:24:18.559 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Removing daemon address: [970da30a-1f86-4ca9-a99a-e511db591a27 port:48785, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+18:24:18.573 [INFO] [org.gradle.launcher.daemon.bootstrap.DaemonMain] Daemon[pid = 9951] process has finished.
+18:24:18.574 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+18:24:18.577 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+18:24:18.581 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.

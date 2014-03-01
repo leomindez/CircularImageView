@@ -184,7 +184,7 @@ public class CircularImageView extends NetworkImageView {
      * Method to download a image asynchronously
      * @param url
      * */
-    public void downloadImageAsync(String url){
+    public void dloadImageAsync(String url){
 
         ImageLoader.ImageCache imageCache = new BitmapLruCache();
         ImageLoader imageLoader = new ImageLoader(newCustomRequestQueue(mContext),imageCache);

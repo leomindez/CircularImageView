@@ -69,7 +69,7 @@ public class CircularImageView extends NetworkImageView {
     @Override
     public void onDraw(Canvas canvas) {
         paintCircularImage(canvas);
-        setDefaultImage(backgroundImage);
+
     }
 
 
@@ -91,7 +91,7 @@ public class CircularImageView extends NetworkImageView {
      * Method to set a default image to imageView
      * @param image
      * */
-    private void setDefaultImage(int image){
+    public void setDefaultImage(int image){
         setDefaultImageResId(image);
     }
 
